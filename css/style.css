@@ -68,6 +68,20 @@
 .form-input:focus {
   background-color: rgba(255, 255, 255, 0.3);
   outline: none;
+
+  .right-box .form-input {
+  background-color: #E1E1E1;
+  color: black;
+}
+
+.right-box .form-input::placeholder {
+  color: #E1E1E1;
+}
+
+.right-box .form-input:focus {
+  background-color: #E1E1E1;
+  outline: none;
+}
 }
 
 /* Botones */
